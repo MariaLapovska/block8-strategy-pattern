@@ -37,7 +37,7 @@ class Human {
         this.places.add(place);
     }
 
-    void printActivity(){}
+    void printActivity() {}
 }
 
 class Fisher extends Human {
@@ -84,7 +84,7 @@ class MushroomGlade implements Place {
     @Override
     public void doSomething(Human context) {
         context = new Mushroomer();
-        System.out.println("At the mushroom field");
+        System.out.println("At the mushroom glade");
         context.printActivity();
     }
 }
